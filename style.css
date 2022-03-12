@@ -1,0 +1,25 @@
+button{
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+button::before,
+button::after{
+    position:absolute;
+    content: "";
+    z-index: -1;
+}
+#reset:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+#p1Button:hover{
+    background: yellowgreen;
+    box-shadow: 0 0 5px blanchedalmond, 0 0 25px blanchedalmond, 0 0 50px blanchedalmond, 0 0 200px blanchedalmond;
+}
+#p2Button:hover{
+    background: blueviolet;
+    box-shadow: 0 0 5px blanchedalmond, 0 0 25px blanchedalmond, 0 0 50px blanchedalmond, 0 0 200px blanchedalmond;
+
+}
