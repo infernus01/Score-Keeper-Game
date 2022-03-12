@@ -23,3 +23,7 @@ button::after{
     box-shadow: 0 0 5px blanchedalmond, 0 0 25px blanchedalmond, 0 0 50px blanchedalmond, 0 0 200px blanchedalmond;
 
 }
+
+section{
+    background-image: linear-gradient(rgb(107, 181, 241),rgb(248, 129, 17),rgb(218, 45, 45));
+}
